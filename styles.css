@@ -1,7 +1,7 @@
 /* styles.css */
 
 body {
-    font-family: "Roboto", sans-serif;
+    font-family: Haoura sans, sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -12,6 +12,17 @@ header {
     color: #fff;
     padding: 1em 0;
     text-align: center;
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo {
+    height: 50px;
+    margin-right: 1em;
 }
 
 h1 {
@@ -120,6 +131,13 @@ model-viewer {
 @media (max-width: 480px) {
     header {
         padding: 0.5em 0;
+    }
+    .header-content {
+        flex-direction: column;
+    }
+    .logo {
+        margin-bottom: 0.5em;
+        margin-right: 0;
     }
     h1 {
         font-size: 1.5em;
