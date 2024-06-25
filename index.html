@@ -3,14 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AR Web Catalogue</title>
+    <title>AR Web Catalog</title>
     <link rel="stylesheet" href="styles.css">
     <!-- Include the <model-viewer> polyfill -->
     <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
 </head>
 <body>
     <header>
-        <h1>Welcome to Our AR Web Catalogue</h1>
+        <div class="header-content">
+            <img src="logo.png" alt="Store Logo" class="logo">
+            <h1>AR Web Store</h1>
+        </div>
     </header>
     <main>
         <div class="product-grid">
@@ -21,10 +24,10 @@
                 </div>
                 <div class="product-info">
                     <h2>AR T-SHIRT</h2>
-                    <p>Luftgekühlt System Premium T-shirt. This product can be viewed in augmented reality.</p>
-                    <model-viewer src="product1.glb" ar ar-modes="webxr scene-viewer quick-look" environment-image="neutral" poster="product1-poster.jpg" alt="A 3D model of Product 1" shadow-intensity="1" camera-controls auto-rotate></model-viewer>
+                    <p>Lufgekühlt AR T-shirt. This product can be viewed in augmented reality.</p>
+                    <model-viewer src="product1-3d-model.glb" ar ar-modes="webxr scene-viewer quick-look" environment-image="neutral" poster="product1-poster.jpg" alt="A 3D model of Product 1" shadow-intensity="1" camera-controls auto-rotate></model-viewer>
                     <button class="view-product-button">
-                        <a href="https://www.tokopedia.com/stickar/augmented-reality-shirt?utm_source=google&utm_medium=organic&utm_campaign=pdp-seo" target="_blank">Buy</a>
+                        <a href="https://example.com/product1" target="_blank">View Product</a>
                     </button>
                 </div>
             </section>
@@ -35,11 +38,11 @@
                     <img src="product2-image.jpg" alt="Product 2 Image">
                 </div>
                 <div class="product-info">
-                    <h2>AR STICKERS</h2>
-                    <p>Luftgekühlt System Premium Sticker. This product can be viewed in augmented reality.</p>
-                    <model-viewer src="product2.glb" ar ar-modes="webxr scene-viewer quick-look" environment-image="neutral" poster="product2-poster.jpg" alt="A 3D model of Product 2" shadow-intensity="1" camera-controls auto-rotate></model-viewer>
+                    <h2>AR STICKER</h2>
+                    <p>Lufgekühlt AR Sticker. This product can be viewed in augmented reality.</p>
+                    <model-viewer src="product2-3d-model.glb" ar ar-modes="webxr scene-viewer quick-look" environment-image="neutral" poster="product2-poster.jpg" alt="A 3D model of Product 2" shadow-intensity="1" camera-controls auto-rotate></model-viewer>
                     <button class="view-product-button">
-                        <a href="https://www.tokopedia.com/stickar/augmented-reality-sticker?utm_source=google&utm_medium=organic&utm_campaign=pdp-seo"target="_blank">Buy</a>
+                        <a href="https://example.com/product2" target="_blank">View Product</a>
                     </button>
                 </div>
             </section>
@@ -51,17 +54,17 @@
                 </div>
                 <div class="product-info">
                     <h2>AR COSTER</h2>
-                    <p>Luftgekühlt System Premium Coster. This product can be viewed in augmented reality.</p>
-                    <model-viewer src="product3.glb" ar ar-modes="webxr scene-viewer quick-look" environment-image="neutral" poster="product3-poster.jpg" alt="A 3D model of Product 3" shadow-intensity="1" camera-controls auto-rotate></model-viewer>
+                    <p>Luftgekühlt AR Coster. This product can be viewed in augmented reality.</p>
+                    <model-viewer src="product3-3d-model.glb" ar ar-modes="webxr scene-viewer quick-look" environment-image="neutral" poster="product3-poster.jpg" alt="A 3D model of Product 3" shadow-intensity="1" camera-controls auto-rotate></model-viewer>
                     <button class="view-product-button">
-                        <a href="https://www.tokopedia.com/stickar/vintage-volkswagen-ar-coster-super-beetle-super-beetle-be0cb?utm_source=google&utm_medium=organic&utm_campaign=pdp-seo" target="_blank">Buy</a>
+                        <a href="https://example.com/product3" target="_blank">View Product</a>
                     </button>
                 </div>
             </section>
         </div>
     </main>
     <footer>
-        <p>&copy; 2024 AR Web Catalogue. All rights reserved by Wolfpuplabs.</p>
+        <p>&copy; 2024 AR Web Catalog. All rights reserved by Wolfpuplabs.</p>
     </footer>
 </body>
 </html>
